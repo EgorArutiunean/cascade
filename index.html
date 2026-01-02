@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/mama-ya-v-polshe/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>????, ? ? ??????! ? ???????? ??????? ? ????? ? ??????</title>
+    <meta name="description" content="???????? ??????? ? ????????? ? ????? ? ?????? ? ????????? ? ??? ??????." />
+    <link rel="canonical" href="https://example.com/mama-ya-v-polshe/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="????, ? ? ??????!" />
+    <meta property="og:description" content="???????? ??????? ? ?????? ? ??? ???? ? ??????." />
+    <meta property="og:image" content="/mama-ya-v-polshe/og.png" />
+    <script>
+      const GA4_ID = 'G-XXXXXXXXXX'; // Replace with your GA4 ID before production
+      if (GA4_ID !== 'G-XXXXXXXXXX') {
+        const gtagScript = document.createElement('script');
+        gtagScript.async = true;
+        gtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`;
+        document.head.appendChild(gtagScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', GA4_ID);
+      }
+    </script>
+  </head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
